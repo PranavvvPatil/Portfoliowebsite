@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="Images/favicon.png"/>
+    <script src="https://kit.fontawesome.com/b7e57cd223.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Pranav</span><br> Patil From Pune</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/dp copy.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>"Skilled web developer & <b>frontend expert</b>, I contribute to innovative web applications using ReactJS, collaborating with experienced professionals to design, develop and deploy scalable solutions. I have gained hands-on experience, built a portfolio, and have opportunities for growth and networking, with mentorship, regular feedback and a dynamic work environment.<br><b>Founder</b>, GC Recycling & Paperley. Award-winning entrepreneur (i2i Business Competition) & recognized by COEP Bhau Institute. Passionate about innovative waste management & seamless digital experiences. "</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br>HTML, Tailwind CSS, BootStrap, Javascript, NodeJS, React, Git</li>
+                            <li><span>Programming Languages</span><br>Java, Basic Python</li>
+                            <li><span>Cloud Technology</span><br>Github, Google Cloud Platform(GCP)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NeuSpaarX</span><br>Software Intern from Sep 2024</li>
+                            <li><span>Enlentic Research Center</span><br>Webmaster from Nov 2023 - june 2024</li>
+                            <li><span>Ignited Innovators of India</span><br>Two times winner for Paperley (2022) and GC Recycling (2024) Startups in Environment sector</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Engineering, Computer Engineering</span><br>Government College of Engineering and Research, Awasari Khurd, Pune, India</li>
+                            <!-- <li><span>Programming Languages</span><br>Java, Basic Python</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Expertise in creating visually appealing and user-friendly websites using HTML,Tailwind CSS, BootStrap. and ReactJs </p>
+                    <a href="https://github.com/PranavvvPatil">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Design</h2>
+                    <p>Skills to design and build the entire architecture of a web application, from creating engaging user interfaces and seamless user experiences on the front end, to developing robust server-side logic, databases, and APIs on the back end.  </p>
+                    <a href="https://github.com/PranavvvPatil">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-business-time"></i>
+                    <h2>Business Intel</h2>
+                    <p>Helping young startups for guide decision-making, funding and working for base model. Overall guiding young startups from colleges.  </p>
+                    <a href="https://github.com/PranavvvPatil">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/port1.png">
+                    <div class="layer">
+                        <h3>GC Recycling Website</h3>
+                        <p>Our startup website was built using React JS, Tailwind CSS and the Motion framework (Received funding from EATON).</p>
+                        <a href="https://gc-recycling.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/port2.png">
+                    <div class="layer">
+                        <h3>Google Gemini 2.0</h3>
+                        <p>Google Gemini clone, MERN stack web app for responsive feed, using Gemini API and managed front-end using React JS and Tailwind CSS.</p>
+                        <a href="https://gemini20-pranav-patils-projects-dccb67b1.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="Images/port3.png">
+                    <div class="layer">
+                        <h3>RazorPay Clone Webpage</h3>
+                        <p>RazorPay clone, web app for displaying designskills. Responsive Webpage and managed front-end using HTML and Tailwind CSS.</p>
+                        <a href="https://razorpay-sepia.vercel.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="https://github.com/PranavvvPatil" class="btn">See more</a>
+        </div>
+        <!-- -----------------------contact-------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>pranavpatil7090@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91 9588480665</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/pranavvpatil/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/PranavvvPatil"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/pranavv_patil"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/9bpVKdoDppyMF2er/?mibextid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
+
+                        </div>
+                        <a href="Images/Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pranav. Made with <i class="fa-solid fa-heart"></i> by Pranav Patil </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");   
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");   
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx8coJT4Zq2oGaC7e6Ksx8SSYG0pG5UJ8M5N93nlapLz9sPGlRRtFbMdY8vdcHaLPQCGg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = 'Message sent successfully'
+                setTimeout(function(){
+                    msg.innerHTML = ''
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
